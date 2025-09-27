@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #FDF8AB;
+}
+
+main {
+  height: auto;
+  width: 750px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 2px solid black;
+  box-shadow: 10px 5px 8px grey;
+}
+
+.big_book {
+  font-size: 3em;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-image: url(OIP.webp);
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  color: white;
+  padding: 20px;
+  margin: 30px 20px;
+}
+
+.world {
+  background-color: #E2EBB4;
+  color: #869f0aa2;
+  font-size: 2em;
+  text-align: center;
+  padding: 5px;
+}
+
+.text {
+  padding: 12px;
+}
+
+.orange {
+  color: #FC6512;
+  border-top: 2px dotted #869f0aa2;
+  border-bottom: 2px dotted #869f0aa2;
+  padding: 5px;
+  width: 460px;
+  
+}
+
+.vn {
+  padding-bottom: 5px;
+  color: #FC6512;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.box {
+  padding: 20px;
+  border: 2px dotted #FC6512;
+  border-top: 20px solid #FC6512;
+  border-radius: 10px;
+  width: 200px;
+  background-color: #FAEBC7;
+  float: right;
+  box-shadow: 5px 5px 5px grey;
+  
+}
+
+.dots {
+  color: #FC6512;
+  border-top: 2px dotted #869f0aa2;
+  border-bottom: 2px dotted #869f0aa2;
+  padding: 5px;
+  
+}
