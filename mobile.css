@@ -1,0 +1,88 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+
+  background: 
+  linear-gradient(90deg ,
+    rgba(253, 248, 171,0.6) 0%,
+    rgba(238,61,27,0.6) 100%
+  ),  
+  url(./React.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main {
+  width: 750px;
+  height: auto;
+  margin: 20px auto;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 0px 0px 1px black;
+}
+
+.header {
+  font-size: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-shadow: 0px 0px 5px black;
+  text-align: center;
+  background-image: url('mobile.jpg');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding: 20px;
+  margin: 20px;
+  color: white;
+}
+
+.def {
+  border: 2px solid rgb(185, 242, 250);
+  background-color: rgb(83, 229, 255);
+  width: 600px;
+  padding: 15px;
+  margin: 10px auto;
+  font-weight: 900;
+}
+
+.name_title {
+  background-color: #2fc0b3;
+  padding: 5px;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+  
+
+}
+
+.box {
+  height: auto;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+}
+
+.box_header {
+  background-color: red;
+  color: white;
+  text-align: center;
+  
+}
+
+.box_main {
+  padding: 4px;
+}
+
+.all_box {
+  display:flex;
+}
+
+.text {
+  margin-bottom: 20px;
+  padding: 0px 20px;
+}
